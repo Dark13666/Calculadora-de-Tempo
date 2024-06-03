@@ -1,0 +1,159 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    color-scheme: dark;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('matrix.jpg');
+}
+
+.titulo1 {
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.br-titulo {
+    height: 0;
+    width: 0;
+    display: contents;
+}
+
+.titulo2 {
+    color: rgb(23, 222, 23);
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.version-bottom {
+    font-family: monospace;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    font-size: 0.75rem;
+}
+
+.inputs-div {
+    display: flex;
+    justify-items: stretch;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin: 3rem 1rem;
+}
+
+.input1,
+.input2 {
+    font-family: Helvetica;
+    height: 4rem;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0;
+    border-radius: 100vh;
+    color: white;
+    user-select: pointer;
+    color-scheme: dark;
+    appearance: none;
+    box-sizing: border-box;
+    border: 2px solid white;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    margin-top: 0.75rem;
+}
+
+@media (max-width: 600px) {
+
+    .input1,
+    .input2 {
+        content: 'Data e Hora';
+    }
+}
+
+.botao-div {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.botao-converter {
+    font-family: Helvetica;
+    height: 4rem;
+    width: 22rem;
+    font-size: 1.25rem;
+    text-align: middle;
+    text-align: center;
+    padding: 0;
+    border-radius: 50px;
+    color: white;
+    color-scheme: dark;
+    appearance: none;
+    box-sizing: border-box;
+    border: 2px solid white;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    font-weight: 750;
+    transition: background-color 0.11s, color 0.11s;
+}
+
+.botao-converter:hover {
+    background-color: white;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    color: black;
+}
+
+.botao-converter:active {
+    background: linear-gradient(rgba(170, 170, 170, 0.9), rgba(170, 170, 170, 0.9));
+    color: black;
+}
+
+.input1::-webkit-datetime-edit-text,
+.input2::-webkit-datetime-edit-text {
+    padding: 0 2px;
+    color: white;
+}
+
+.input1::-webkit-datetime-edit-month-field,
+.input2::-webkit-datetime-edit-month-field {
+    text-transform: uppercase;
+    color: white;
+}
+
+.input1::-webkit-datetime-edit-day-field,
+.input2::-webkit-datetime-edit-day-field {
+    text-transform: uppercase;
+    color: white;
+}
+
+.input1::-webkit-datetime-edit-year-field,
+.input2::-webkit-datetime-edit-year-field {
+    text-transform: uppercase;
+    color: white;
+}
+
+.div-resultado {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.resultado-completo {
+    font-family: Helvetica;
+    font-size: 2.25rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    border-radius: 50px;
+    border: 2px solid white;
+    text-align: left;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.resultado-completo:empty {
+    display: none;
+    border: none;
+    background: none;
+}

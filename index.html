@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <title>Calculadora de Tempo</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div>
+            <h1 class="titulo1">Bem vindo à</h1>
+            <br class="br-titulo" />
+            <h1 class="titulo2">Calculadora de Tempo</h1>
+        </div>
+
+        <div class="inputs-div">
+            <input type="datetime-local" step="1" class="input1" id="input1" />
+            <input type="datetime-local" step="1" class="input2" id="input2" />
+        </div>
+
+        <div class="botao-div">
+            <button id="botaoConverter" class="botao-converter">CALCULAR</button>
+        </div>
+        <script>
+            var botao = document.getElementById('botaoConverter');
+        </script>
+
+        <script src="main.js"></script>
+
+        <div class="div-resultado">
+            <p id="resultado" class="resultado-completo"></p>
+        </div>
+
+        <div>
+            <p class="version-bottom">Versão 2.4.2</p>
+        </div>
+    </body>
+
+</html>
