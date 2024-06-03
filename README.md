@@ -4,6 +4,7 @@ Esssa é um programa simples que mostra a diferença entre duas datas e horário
 
 # Como usar
 
-- Acesse a `<a href="https://dark13666.github.io/calculadora-de-tempo2/" target="_blank">`Calculadora de Tempo `</a>`
-- Selecione uma data e um horário em cada campo
-- Clique em **CALCULAR**
+-   Acesse a [Calculadora de Tempo](https://dark13666.github.io/calculadora-de-tempo2 'Calculadora de Tempo')
+-   Selecione uma data e um horário em cada campo
+-   Clique em **CALCULAR**
+
