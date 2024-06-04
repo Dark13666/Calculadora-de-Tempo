@@ -1,6 +1,6 @@
 # Calculadora de Tempo v2
 
-Esssa é um programa simples que mostra a diferença entre duas datas e horários
+Esse é um programa simples que mostra a diferença entre duas datas e horários
 
 # Como usar
 
